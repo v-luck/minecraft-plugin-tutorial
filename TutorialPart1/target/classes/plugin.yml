@@ -1,0 +1,7 @@
+main: me.JustLuck.HelloWorld.Main
+name: Hello
+version: 1.0
+author: JustLuck
+
+commands:
+  Hello:
