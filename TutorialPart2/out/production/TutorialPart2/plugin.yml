@@ -1,0 +1,8 @@
+main: me.JustLuck.Launch.Main
+name: Fling
+version: 1.0
+author: JustLuck
+
+commands:
+  Launch:
+    aliases: LCH
