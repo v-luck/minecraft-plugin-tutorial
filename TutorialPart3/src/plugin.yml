@@ -1,0 +1,7 @@
+main: me.JustLuck.Healer.Main
+name: healer
+version: 1.0Coolio
+author: JustLuck
+
+commands:
+  Healer:
