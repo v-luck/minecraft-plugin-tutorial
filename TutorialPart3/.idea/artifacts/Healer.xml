@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Healer">
+    <output-path>$USER_HOME$/Desktop/Server/plugins</output-path>
+    <root id="archive" name="Healer.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/../TutorialPart1/dependant/spigot-1.16.4.jar" />
+    </root>
+  </artifact>
+</component>

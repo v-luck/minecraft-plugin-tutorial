@@ -1,4 +1,4 @@
-package me.JustLuck.Healer;
+package me.JustLuck.HealerPack;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

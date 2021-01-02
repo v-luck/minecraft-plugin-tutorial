@@ -1,6 +1,6 @@
-main: me.JustLuck.Healer.Main
-name: healer
-version: 1.0Coolio
+main: me.JustLuck.HealerPack.Main
+name: healerman
+version: 1.0
 author: JustLuck
 
 commands:
