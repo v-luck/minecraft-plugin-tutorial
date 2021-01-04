@@ -34,13 +34,13 @@ public class Heal implements CommandExecutor {
                         new ComponentBuilder("Click here to be healed!").color(net.md_5.bungee.api.ChatColor.GRAY).italic(true).create()));
                 player.spigot().sendMessage(message);
 
-                TextComponent message2 = new TextComponent("Would you like to be a goliath");
-                message2.setColor(net.md_5.bungee.api.ChatColor.GOLD);
-                message2.setBold(true);
-                message2.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/healer goliath"));
-                message2.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
-                        new ComponentBuilder("Click here to be goliath!").color(net.md_5.bungee.api.ChatColor.GREEN).italic(true).create()));
-                player.spigot().sendMessage(message2);
+            //    TextComponent message2 = new TextComponent("Would you like to be a goliath");
+            //    message2.setColor(net.md_5.bungee.api.ChatColor.GOLD);
+            //    message2.setBold(true);
+            //    message2.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/healer goliath"));
+            //    message2.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
+            //            new ComponentBuilder("Click here to be goliath!").color(net.md_5.bungee.api.ChatColor.GREEN).italic(true).create()));
+            //    player.spigot().sendMessage(message2);
 
                 return true;
             }
@@ -50,19 +50,19 @@ public class Heal implements CommandExecutor {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
                 return true;
             }
-            if (args[0].equalsIgnoreCase("goliath")) {
-                player.setHealth(100);
-                player.setAllowFlight(true);
-                player.setLevel(69);
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
-                return true;
-            }
-            if (args[0].equalsIgnoreCase("removegoliath")) {
-                player.setHealth(20);
-                player.setAllowFlight(false);
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
-                return true;
-            }
+            //if (args[0].equalsIgnoreCase("goliath")) {
+            //    player.setHealth(100);
+            //    player.setAllowFlight(true);
+            //    player.setLevel(69);
+            //    Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
+            //    return true;
+            //}
+            //if (args[0].equalsIgnoreCase("removegoliath")) {
+            //    player.setHealth(20);
+            //    player.setAllowFlight(false);
+            //    Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
+            //    return true;
+            //}
             // /healer healme
         }
         return false;
