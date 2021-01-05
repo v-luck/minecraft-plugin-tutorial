@@ -1,7 +1,7 @@
-main: me.JustLuck.HealerPack.Main
-name: healerman
+main: me.JustLuck.Doctor.Main
+name: Doctor
 version: 1.0
 author: JustLuck
 
 commands:
-  Healer:
+  Doctor:

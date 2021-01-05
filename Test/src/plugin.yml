@@ -1,0 +1,7 @@
+main: me.JustLuck.Combat.Main
+name: Combatkill
+version: 1.0
+author: JustLuck
+
+commands:
+  Kit:

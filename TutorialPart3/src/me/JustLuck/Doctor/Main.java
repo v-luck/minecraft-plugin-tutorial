@@ -1,11 +1,12 @@
-package me.JustLuck.HealerPack;
+package me.JustLuck.Doctor;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
+
     @Override
     public void onEnable() {
-        this.getCommand("Healer").setExecutor(new Heal());
+        this.getCommand("Doctor").setExecutor(new Heal());
     }
 
     @Override
