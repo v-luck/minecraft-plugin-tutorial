@@ -25,7 +25,6 @@ public class Main extends JavaPlugin {
 
             Player player = (Player) commandSender;
             player.setHealth(20.0);
-            player.setFoodLevel(20);
             player.getInventory().addItem(new ItemStack(Material.DIAMOND_SWORD, 1));
             return true;
         }

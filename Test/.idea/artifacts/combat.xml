@@ -2,7 +2,7 @@
   <artifact type="jar" name="combat">
     <output-path>$USER_HOME$/Desktop/Server/plugins</output-path>
     <root id="archive" name="combat.jar">
-      <element id="file-copy" path="$PROJECT_DIR$/../TutorialPart1/dependant/spigot-1.16.4.jar" />
+      <element id="module-output" name="Test" />
     </root>
   </artifact>
 </component>
