@@ -1,0 +1,7 @@
+main: me.JustLuck.Doctor.Main
+name: Doctor
+version: 1.0
+author: JustLuck
+
+commands:
+  Doctor:

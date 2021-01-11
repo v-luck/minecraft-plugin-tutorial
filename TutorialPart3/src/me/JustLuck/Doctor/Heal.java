@@ -50,9 +50,8 @@ public class Heal implements CommandExecutor {
                 player.sendMessage(ChatColor.GREEN + "You've been healed!");
                 return true;
             }
-            player.sendMessage(ChatColor.RED + "Usage: /doctor");
             if (args[0].equalsIgnoreCase("goliath")) {
-                player.setHealth(100);
+                player.setHealth(20);
                 player.setAllowFlight(true);
                 player.setLevel(69);
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
@@ -64,6 +63,7 @@ public class Heal implements CommandExecutor {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(),"heal " + player.getName());
                 return true;
             }
+            player.sendMessage(ChatColor.RED + "Usage: /doctor");
             // /healer healme
             return true;
         }
